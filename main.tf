@@ -52,6 +52,6 @@ resource "aws_instance" "default" {
 }
 
 module "ami" {
-  source = "git::https://gitlab.com/nalbam/terraform-aws-ami.git"
+  source = "git::https://github.com/nalbam/terraform-aws-ami.git"
   region = "${var.region}"
 }
