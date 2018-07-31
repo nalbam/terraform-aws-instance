@@ -1,7 +1,8 @@
 # terraform-aws-instance
 
 ## usage
-```
+
+```hcl
 module "demo" {
   source = "git::https://github.com/nalbam/terraform-aws-instance.git"
   region = "ap-northeast-2"
@@ -19,4 +20,5 @@ module "demo" {
 ```
 
 ## reference
-* https://github.com/terraform-aws-modules/terraform-aws-ec2-instance
+
+* <https://github.com/terraform-aws-modules/terraform-aws-ec2-instance>
